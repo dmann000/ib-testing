@@ -38,3 +38,5 @@ Xwindow came up - couldn't read it…
 	Clicked checkbox and button I couldn't read
 	
 Opened IB Gateway
+
+binary for IB gateway is  /home/ec2-user/Jts/ibgateway/972/ibgateway
