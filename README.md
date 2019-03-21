@@ -40,3 +40,7 @@ Xwindow came up - couldn't read it…
 Opened IB Gateway
 
 binary for IB gateway is  /home/ec2-user/Jts/ibgateway/972/ibgateway
+
+I'm going to attempt an ubuntu instances with this youtube video to get a GUI:
+
+https://www.youtube.com/watch?v=6x_okhl_CF4
