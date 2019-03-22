@@ -46,6 +46,14 @@ I'm going to attempt an ubuntu instances with this youtube video to get a GUI:
 https://www.youtube.com/watch?v=6x_okhl_CF4
 
 
-got ubuntu installed and up.  I've run the 
+got ubuntu installed and up.  I've run the following:
 
 sudo apt update && sudo apt upgrade #command
+sudo sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+sudo /etc/init.d/ssh restart
+sudo apt install xrdp xfce4 xfce4-goodies tightvncserver -y
+echo xfce4-session> /home/ubuntu/.xsession
+sudo cp /home/ubuntu/.xsession /etc/skel
+sudo sed -i '0,/-1/s//ask-1/' /etc/xrdp/xrdp.ini
+sudo service xrdp restart
+
