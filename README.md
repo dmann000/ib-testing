@@ -57,3 +57,6 @@ sudo cp /home/ubuntu/.xsession /etc/skel
 sudo sed -i '0,/-1/s//ask-1/' /etc/xrdp/xrdp.ini
 sudo service xrdp restart
 
+# got rdp over putty... login screen pops up
+
+# I'm unable to log in as ubuntu and don't see the same option as the video.
